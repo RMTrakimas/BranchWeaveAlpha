@@ -1,0 +1,139 @@
+body	{
+	background-color:#FEFFF1;
+	margin:0px;
+	/*overflow-y:scroll;*/
+}
+
+/*-- top --*/
+
+#topbar	{
+	background-color:#E0EEEE;
+	width:auto;
+	height:5px;
+	margin-bottom:1px;
+}
+
+#topbar2	{
+	background-color:#2B2B2B;
+	width:auto;
+	height:1px;
+}
+
+/* maintains header when window is resized */
+#subheader	{
+	background-color:#3CB371;
+	width:auto
+	height:50px;
+}
+
+#header	{
+	background-color:#3CB371;
+	width:1000px;
+	height:50px;
+	margin:auto;
+}
+
+#logo-image	{
+	width:150px;
+	height:50px;
+	float:left;
+}
+
+#logo-text	{
+	font-family:Impact;
+	font-size:40px;
+	font-weight:bold;
+	color:#E0EEEE;
+	text-shadow:0.1em 0.1em 0.4em /*#2B2B2B*/ black;
+	vertical-align:10px;
+	float:left;
+}
+
+#login-container	{
+	float:right;
+}
+
+#topbottombar	{
+	background-color:#2B2B2B;
+	width:auto;
+	height:3px;
+}
+
+/*-- middle --*/
+
+#midtext	{
+	width:800px;
+	margin:auto;
+}
+
+#middiv	{
+	height:500px;
+	width:auto;
+}
+
+#midbackground	{
+	border:3px groove #2B2B2B;
+	background-image:url(img/leaves.jpg);
+	background-size:800px 400px;
+	background-repeat:no-repeat;
+	height:400px;
+	width:800px;
+	margin:auto;
+}
+
+#signupdiv	{
+	background-color:rgba(23.5%, 70.2%, 44.3%, 0.80);
+	width:800px;
+	height:400px;
+	margin:auto;
+	text-align:center;
+}
+
+#branchinfo	{
+	font-family:Sans-serif;
+	font-size:35px;
+	font-weight:bold;
+	text-shadow:0.0em 0.0em 0.1em black;
+	color:#E0EEEE;
+	letter-spacing:1px;
+	line-height:175%;
+}
+
+.signupinput	{
+	font-family:Sans-serif;
+	font-size:25px;
+	font-weight:bold;
+	color:#EDEDED;
+	height:30px;
+	width:300px;
+}
+
+#descriptionprompt	{
+	width:600px;
+	margin:auto;
+	margin-top:25px;
+}
+
+/*-- bottom --*/
+
+#bottombar	{
+	background-color:#2B2B2B;
+	height:1px;
+	width:1000px;
+	margin:auto;
+	margin-top:75px;
+}
+
+#linkbar	{
+	word-spacing:100px;
+	text-align:center;
+	margin:auto;
+	margin-top:25px;
+}
+
+.links	{
+	color:#2B2B2B;
+	font-family:Sans-serif;
+	font-weight:bold;
+	font-size:14px;
+}
